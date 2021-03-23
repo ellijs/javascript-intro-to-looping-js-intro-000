@@ -1,5 +1,4 @@
 function forLoop (array) {
-  var array = new Array
   for (let i = 1; i < 26; i++) {
     array.push(`I am ${i} strange loop${i === 1 ? '' : 's'}.`);
   }
